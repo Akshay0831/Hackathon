@@ -316,4 +316,9 @@ body {
   position: relative;
   top: 800px;
 }
+
+.right1 img:nth-child(2) {
+  position: relative;
+  top: 600px;
+}
 /*# sourceMappingURL=style.css.map */
