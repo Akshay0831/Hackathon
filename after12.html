@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        $(".header").click(function () {
+            $header = $(this);
+            $content = $header.next();
+            $content.slideToggle(500, function () {
+                $header.text(function () {
+                    return $content.is(":visible") ? "Collapse" : "Expand";
+                });
+            });
+        });
+    </script>
     <title>Document</title>
 </head>
 <body>
@@ -17,15 +28,70 @@
             <div class="right-nav">
                 <ul>
                     <li><a href="./index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="#"><i class="fa fa-tachometer"></i> Courses</a></li>
+                    <li><a href="./courses.html"><i class="fa fa-tachometer"></i> Courses</a></li>
                     <li><a href="#"><i class="fa fa-user"></i> Internship</a></li>
                     <li><a href="#"><i class="fa fa-users"></i> Competitions</a></li>
                 </ul>
             </div>
         </div>
-        <div class="">
+        <div class="main_body">
+            <div class="general">
+                <p>If you searching for the List of Best Courses after 12th Standard in engineering, medical, b.com, llb and more then definitely you will be in the 12th class.<br>
 
+                    So this is the right place for you because here you will get everything about after the 12th course.<br>
+                    
+                    The course you choose is up to you.<br>
+                    
+                    However, there are some things you need to consider depending on the interest you have.<br>
+                    
+                    Choosing the right course is a powerful thing.<br>
+                    
+                    It can affect your future so choosing the right career options is a critical step.<br>
+                    
+                    You have to choose the right and suitable course to study after the 12th class.
+                    
+                    So that does not regret it later and it doesn’t happen later that what you want to be and what you became.</p>
+            </div>
+            <div class="accordion-set">
+                <div class="accordion-key">
+                    <a class="accordion">Engineering</a>
+                    <div class="panel">
+                        <ul>
+                            <li><a href="#">Computer Science</a></li>
+                            <li><a href="#">Electronic and Communication</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-key">
+                    <a class="accordion">Medical</a>
+                    <div class="panel">
+                        <p>agsdaggdgsdgsdh..</p>
+                    </div>
+                </div>
+                <div class="accordion-key">
+                    <a class="accordion">Commerce</a>
+                    <div class="panel">
+                        <p>fgdkjdfjhlkdfjkhd</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>
