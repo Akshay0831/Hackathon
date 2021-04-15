@@ -48,7 +48,7 @@ img {
 .body {
     //height: 200vh;
     //margin-top: 20px;
-    background: rgb(233, 182, 233);
+    background: white;
     height: 600px;
     position: relative;
     //top: 125px;
@@ -56,37 +56,45 @@ img {
     
 }
 .main {
-    outline: 10px solid;
+    //outline: 10px solid;
     display: flex;
     height: 400px;
     width: 90%;
     margin: auto;
     background: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px;
 }
 .logo {
     margin: auto;
 }
 .main .logo img{
-    width: 80%;
-    height: 80%;
+    width: 130%;
+    height: 130%;
     margin: auto;
-    //outline: 1px solid white;
+    outline: 1px solid;
+    display: inline-block;
+    box-shadow: 0 0 5px;
 }
 .info {
+    display: inline-block;
     position: relative;
-    //left: -20%;
-    //outline: 1px solid white;
-    width: 200%;
-    height: 80%;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    //margin: auto;
     padding: 20px;
     top: -50px;
-    
+    //outline: 5px solid;
+    margin-left: 10px;
+    left: 50px;
+    top: 10px;
 }
 .info p {
-    color: white;
+    color: black;
     font-size: 24px;
     font-family: sans-serif;
+    width: 90%;
 }
 .Courses {
     display: inline-block;
@@ -118,6 +126,6 @@ body {
     box-shadow: 0 0 10px black;
 }
 .main {
-    background: purple;
+    background: lightblue;
     padding: 40px;
 }

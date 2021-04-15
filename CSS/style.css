@@ -62,14 +62,13 @@ img {
 }
 
 .body {
-  background: #e9b6e9;
+  background: white;
   height: 600px;
   position: relative;
   padding-top: 100px;
 }
 
 .main {
-  outline: 10px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,6 +76,10 @@ img {
   width: 90%;
   margin: auto;
   background: black;
+  border: none;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 20px;
+          box-shadow: 0 0 20px;
 }
 
 .logo {
@@ -84,24 +87,32 @@ img {
 }
 
 .main .logo img {
-  width: 80%;
-  height: 80%;
+  width: 130%;
+  height: 130%;
   margin: auto;
+  outline: 1px solid;
+  display: inline-block;
+  -webkit-box-shadow: 0 0 5px;
+          box-shadow: 0 0 5px;
 }
 
 .info {
+  display: inline-block;
   position: relative;
-  width: 200%;
-  height: 80%;
-  margin: auto;
+  width: 100%;
+  height: 100%;
   padding: 20px;
   top: -50px;
+  margin-left: 10px;
+  left: 50px;
+  top: 10px;
 }
 
 .info p {
-  color: white;
+  color: black;
   font-size: 24px;
   font-family: sans-serif;
+  width: 90%;
 }
 
 .Courses {
@@ -139,7 +150,7 @@ body {
 }
 
 .main {
-  background: purple;
+  background: lightblue;
   padding: 40px;
 }
 /*# sourceMappingURL=style.css.map */
