@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -135,9 +138,35 @@ body {
     font-size: 20px;
     border-radius: 5px;
 }
-
+.study {
+    background-image: url('../Resources/student-study-stress-img-1600x900.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 100%;
+    //text-align: center;
+    padding-top: 12%;
+    padding-left: 12%;
+}
+.study h1 {
+    font-family: Niconne;
+    font-size: 100px;
+}
+.study span {
+    color: red;
+}
+// .study p {
+//     display: inline-block;
+//     height: auto;
+//     width: 100%;
+// }
 .main_body{
     padding: 5px;
+}
+.main_body .general p{
+    line-height: 40px;
+
 }
 .accordion {
     background-color: lightblue;
@@ -195,4 +224,22 @@ body {
     padding: 4% 2%;
     font-size: 20px;
     font-family: sans-serif;
+}
+.footer {
+    display: flex;
+}
+.courses, .intern, .competition {
+    box-shadow: 0 0 10px;
+    margin: 2%;
+    text-align: center;
+    border-radius: 20px;
+    height: fit-content;
+}
+.footer img {
+    height: 75%;
+    width: 75%;
+}
+.footer p {
+    font-family: Shadows Into Light;
+    font-size: 40px;
 }
