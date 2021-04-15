@@ -6,17 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-        $(".header").click(function () {
-            $header = $(this);
-            $content = $header.next();
-            $content.slideToggle(500, function () {
-                $header.text(function () {
-                    return $content.is(":visible") ? "Collapse" : "Expand";
-                });
-            });
-        });
-    </script>
     <title>Document</title>
 </head>
 <body>
@@ -52,46 +41,57 @@
                     
                     So that does not regret it later and it doesn’t happen later that what you want to be and what you became.</p>
             </div>
-            <div class="accordion-set">
-                <div class="accordion-key">
-                    <a class="accordion">Engineering</a>
-                    <div class="panel">
-                        <ul>
-                            <li><a href="#">Computer Science</a></li>
-                            <li><a href="#">Electronic and Communication</a></li>
-                        </ul>
+            <div class="cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="https://image.shutterstock.com/image-photo/engineer-technician-designing-drawings-engineering-260nw-1492926674.jpg" alt="engg">
+                    </div>
+                    <div class="heading">
+                        Engineering
+                    </div>
+                    <hr>
+                    <div class="desc">
+                        Engineeringisdumb
                     </div>
                 </div>
-                <div class="accordion-key">
-                    <a class="accordion">Medical</a>
-                    <div class="panel">
-                        <p>agsdaggdgsdgsdh..</p>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://www.shutterstock.com/image-photo/doctor-blank-clipboard-medical-stethoscope-red-728189965" alt="engg">
+                    </div>
+                    <div class="heading">
+                        Medical
+                    </div>
+                    <hr>
+                    <div class="desc">
+                        Engineeringisdumb
                     </div>
                 </div>
-                <div class="accordion-key">
-                    <a class="accordion">Commerce</a>
-                    <div class="panel">
-                        <p>fgdkjdfjhlkdfjkhd</p>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://www.shutterstock.com/image-photo/paper-boxes-shopping-cart-on-laptop-577492270" alt="engg">
+                    </div>
+                    <div class="heading">
+                        Commerce
+                    </div>
+                    <hr>
+                    <div class="desc">
+                        Engineeringisdumb
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://www.shutterstock.com/image-photo/violin-palette-250041007" alt="engg">
+                    </div>
+                    <div class="heading">
+                        Arts
+                    </div>
+                    <hr>
+                    <div class="desc">
+                        Engineeringisdumb
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
-        }
-        </script>
 </body>
 </html>

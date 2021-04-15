@@ -169,3 +169,30 @@ body {
     border-radius: 10px;
     margin: 1px;
 }
+.cards{
+    padding: 1%;
+}
+.card{
+    display: inline-block;
+    background-color: lightblue;
+    width:45%;
+    margin: 2%;
+    border-radius: 10px;
+}
+.image img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.heading{
+    padding: 2%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.desc{
+    padding: 4% 2%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
