@@ -46,17 +46,13 @@ img {
     margin-left: 650px;
 }
 .body {
-    //height: 200vh;
-    //margin-top: 20px;
     background: white;
     height: 600px;
     position: relative;
-    //top: 125px;
     padding-top: 100px;
     
 }
 .main {
-    //outline: 10px solid;
     display: flex;
     height: 400px;
     width: 90%;
@@ -82,16 +78,13 @@ img {
     position: relative;
     width: 100%;
     height: 100%;
-    //margin: auto;
     padding: 20px;
     top: -50px;
-    //outline: 5px solid;
     margin-left: 10px;
     left: 50px;
     top: 10px;
 }
 .info p {
-    color: black;
     font-size: 24px;
     font-family: sans-serif;
     width: 90%;
@@ -106,19 +99,24 @@ img {
 
 body {
     margin-top: 125px;
-    background: rgb(233, 182, 233);
+    background: white;
 }
+
+.Courses{
+    padding: 1em;
+}
+
 .after10 {
     padding: 20px;
-    background: purple;
+    background: lightblue;
     margin: 10px;
     display: inline-block;
     width: 48%;
     height: 50%;
+    border-radius: 5px;
     p {
         font-size: 30px;
         font-family: sans-serif;
-        color: white;
     }
 }
 .after10:hover {
