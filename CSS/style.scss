@@ -243,3 +243,42 @@ body {
     font-family: Shadows Into Light;
     font-size: 40px;
 }
+.main-body img {
+    width: 100%;
+    height: auto;
+    opacity: .85;
+    margin: 0;
+}
+.main-body {
+    margin-bottom: 80px;
+}
+.main-body h2 , .main-body p, .main-body h4{
+    font-family: sans-serif;
+}
+.content_img {
+    display: flex;
+    background-color: rgb(217, 235, 247);
+    margin: 50px 20px 50px 20px;
+    padding: 40px;
+    border-radius: 30px;
+
+}
+.content_img img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 300px;
+    margin-right: 20px;
+}
+.left {
+    margin: 20px 30px auto 30px;
+    border-radius: 10px;
+}
+.content_img * {
+    font-size: 20px;
+    
+}
+.right img:nth-child(2) {
+    position: relative;
+    top: 800px;
+}
