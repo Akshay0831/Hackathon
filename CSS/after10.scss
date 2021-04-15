@@ -106,6 +106,18 @@ img {
     text-decoration: none;
     color: black;
 }
+button {
+    border: none;
+    padding: 10px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+button:active {
+    border: none;
+}
 .sub_courses * {
     background: lightblue;
     border-radius: 20px;
@@ -114,7 +126,7 @@ img {
     margin: 20px;
     display: flex;
     background-color: white;
-    width: 500px;
+    width: 536px;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -122,6 +134,10 @@ img {
 }
 .right, .left, .top, .bottom {
     display: inline-block;
+    text-align: center;
+}
+.bottom p {
+    background-color: white;
 }
 .sub_courses img {
     width: 200px;
@@ -133,20 +149,43 @@ img {
 .left {
     margin-right: 30px;
     position: relative;
-    top: 120px;
+    top: 100px;
     height: fit-content;
     padding: 20px;
     z-index: 10;
 }
 .left * {
     font-size: 25px;
+    text-align: center;
 }
 .right {
     padding: 10px;
+    text-align: center;
 }
 .bottom p {
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
     font-family: sans-serif;
+}
+i {
+    display: inline-block;
+    color: black;
+}
+.totop {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 12;
+    top: 550px;
+    left: 1200px;
+    background-color: rgba(255,255,255,.5);
+    padding: 20px;
+}
+.arts, .dip, .iti {
+    height: 420px;
+}
+.paramedical-courses .left {
+    width: 250px;
 }
