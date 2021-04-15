@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/after10.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        $(".header").click(function () {
+            $header = $(this);
+            $content = $header.next();
+            $content.slideToggle(500, function () {
+                $header.text(function () {
+                    return $content.is(":visible") ? "Collapse" : "Expand";
+                });
+            });
+        });
+    </script>
     <title>Document</title>
 </head>
 <body>
@@ -41,22 +52,46 @@
                     
                     So that does not regret it later and it doesn’t happen later that what you want to be and what you became.</p>
             </div>
-            <div class="arts">
-                For Arts
-            </div>
-            <div class="commerce">
-                For Commerce
-            </div>
-            <div class="pcm">
-                For PCM
-            </div>
-            <div class="pcb">
-                For PCB
-            </div>
-            <div class="other">
-                For Other or Any
+            <div class="accordion-set">
+                <div class="accordion-key">
+                    <a class="accordion">Engineering</a>
+                    <div class="panel">
+                        <ul>
+                            <li><a href="#">Computer Science</a></li>
+                            <li><a href="#">Electronic and Communication</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-key">
+                    <a class="accordion">Medical</a>
+                    <div class="panel">
+                        <p>agsdaggdgsdgsdh..</p>
+                    </div>
+                </div>
+                <div class="accordion-key">
+                    <a class="accordion">Commerce</a>
+                    <div class="panel">
+                        <p>fgdkjdfjhlkdfjkhd</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>

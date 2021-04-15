@@ -127,3 +127,46 @@ body {
     background: lightblue;
     padding: 40px;
 }
+.general {
+    margin: 1em;
+    background-color: lightblue;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main_body{
+    padding: 5px;
+}
+.accordion {
+    background-color: lightblue;
+    cursor: pointer;
+    padding: 1%;
+    width: 99%;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(0, 140, 255);
+    box-shadow: 2px 2px 7px white;
+    color: black;
+}
+
+.panel {
+    padding: 0 10px;
+    margin: 5px;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion-set{
+    padding: 5px;
+    margin: 2px 5px;
+}
+
+.accordion-key{
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    margin: 1px;
+}
