@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: yellow;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    transition-duration: .9s;
+}
+a:hover {
+    background: black;
+    color: yellow;
+    box-shadow: 2px 2px 7px white;
+}
+img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.nav-bar {
+    display: flex;
+    background: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 343;
+    opacity: 0.85;
+    top: 0;
+}
+.right-nav {
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 650px;
+}
+.body {
+    //height: 200vh;
+    //margin-top: 20px;
+    background: rgb(233, 182, 233);
+    height: 600px;
+    position: relative;
+    //top: 125px;
+    padding-top: 100px;
+    
+}
+.main {
+    outline: 10px solid;
+    display: flex;
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    background: black;
+}
+.logo {
+    margin: auto;
+}
+.main .logo img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    //outline: 1px solid white;
+}
+.info {
+    position: relative;
+    //left: -20%;
+    //outline: 1px solid white;
+    width: 200%;
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+    top: -50px;
+    
+}
+.info p {
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.Courses {
+    display: inline-block;
+    top: 150px;
+    width: 100%;
+    margin: auto;
+    height: 80%;
+}
+
+body {
+    margin-top: 125px;
+    background: rgb(233, 182, 233);
+}
+.after10 {
+    padding: 20px;
+    background: purple;
+    margin: 10px;
+    display: inline-block;
+    width: 48%;
+    height: 50%;
+    p {
+        font-size: 30px;
+        font-family: sans-serif;
+        color: white;
+    }
+}
+.after10:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.main {
+    background: purple;
+    padding: 40px;
+}
