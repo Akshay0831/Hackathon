@@ -181,8 +181,6 @@ body {
 
 .active, .accordion:hover {
   background-color: #008cff;
-  -webkit-box-shadow: 2px 2px 7px white;
-          box-shadow: 2px 2px 7px white;
   color: black;
 }
 
