@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: cornsilk;
+}
+
 .nav-bar ul {
   list-style: none;
   display: -webkit-box;
@@ -67,7 +71,6 @@ img {
   position: relative;
   top: 130px;
   margin: 30px;
-  outline: 2px solid;
   padding: 20px;
 }
 
@@ -75,6 +78,8 @@ img {
   padding: 20px;
   background: lightblue;
   border-radius: 20px;
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
 }
 
 .main_body .general p {
@@ -91,7 +96,7 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 10px;
-  background-color: lightblue;
+  background-color: cornsilk;
   border: none;
   border-radius: 20px;
   width: 100%;
@@ -118,7 +123,7 @@ button {
 button:hover {
   cursor: pointer;
   background-color: black;
-  color: white;
+  color: yellow;
 }
 
 button:active {
@@ -126,7 +131,7 @@ button:active {
 }
 
 .sub_courses * {
-  background: lightblue;
+  background: #faec29;
   border-radius: 20px;
 }
 
@@ -135,7 +140,7 @@ button:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+  background-color: #3f3e3e;
   width: 536px;
   padding: 10px;
   border: none;
@@ -149,7 +154,7 @@ button:active {
 }
 
 .bottom p {
-  background-color: white;
+  background: yellow;
 }
 
 .sub_courses img {
@@ -187,6 +192,8 @@ button:active {
   font-weight: bold;
   font-size: 20px;
   font-family: sans-serif;
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
 }
 
 i {
@@ -212,5 +219,9 @@ i {
 
 .paramedical-courses .left {
   width: 250px;
+}
+
+.iti h3 {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=after10.css.map */
